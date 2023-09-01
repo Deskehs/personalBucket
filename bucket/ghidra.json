@@ -20,9 +20,9 @@
         "    Copy-Item \"$dir\\Ghidra\\Configurations.original\\*\" \"$persist_dir\\Ghidra\\Configurations\" -Force -Recurse",
         "    Remove-Item \"$dir\\Ghidra\\Configurations.original\" -Force -Recurse | Out-Null",
         "}",
-        "if (Test-Path \"$dir\\Ghidra\\Extensions.original\") {",
-        "    Copy-Item \"$dir\\Ghidra\\Extensions.original\\*\" \"$persist_dir\\Ghidra\\Extensions\" -Force -Recurse",
-        "    Remove-Item \"$dir\\Ghidra\\Extensions.original\" -Force -Recurse | Out-Null",
+        "if (Test-Path \"$dir\\Extensions.original\") {",
+        "    Copy-Item \"$dir\\Extensions.original\\*\" \"$persist_dir\\Extensions\" -Force -Recurse",
+        "    Remove-Item \"$dir\\Extensions.original\" -Force -Recurse | Out-Null",
         "}"
     ],
     "bin": "ghidraRun.bat",
@@ -34,7 +34,7 @@
     ],
     "persist": [
         "Ghidra/Configurations",
-        "Ghidra/Extensions"
+        "Extensions"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/NationalSecurityAgency/ghidra/releases/latest",
