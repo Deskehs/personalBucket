@@ -29,7 +29,7 @@
             "GnuCash"
         ]
     ],
-    "persist": "etc\\gnucash\\environment.local",
+    "persist": "etc\\gnucash\\environment",
     "checkver": {
         "github": "https://github.com/Gnucash/gnucash",
         "regex": "gnucash-([\\w.-]+)\\.setup\\.exe"
