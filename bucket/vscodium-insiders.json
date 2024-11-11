@@ -71,8 +71,7 @@
     ],
     "persist": "data",
     "checkver": {
-        "github": "https://github.com/VSCodium/vscodium-insiders",
-        "regex": "([\\w.]+-insider)"
+        "github": "https://github.com/VSCodium/vscodium-insiders"
     },
     "autoupdate": {
         "architecture": {
