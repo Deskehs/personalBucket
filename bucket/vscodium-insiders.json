@@ -1,5 +1,5 @@
 {
-    "version": "1.100.02311",
+    "version": "1.100.02343",
     "description": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
     "homepage": "https://vscodium.com/",
     "license": "MIT",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VSCodium/vscodium-insiders/releases/download/1.100.02311-insider/VSCodium-win32-x64-1.100.02311-insider.zip",
-            "hash": "fa2016b1bfd30cd66101a1aca6b9ff0e8bb5196d6c9121095e0417e70c3aba15"
+            "url": "https://github.com/VSCodium/vscodium-insiders/releases/download/1.100.02343-insider/VSCodium-win32-x64-1.100.02343-insider.zip",
+            "hash": "120a1c5025287e027ff7fe561f50eaeec1675acd72cf1929288a5521df4192c5"
         },
         "arm64": {
-            "url": "https://github.com/VSCodium/vscodium-insiders/releases/download/1.100.02311-insider/VSCodium-win32-arm64-1.100.02311-insider.zip",
-            "hash": "e36965259c6dff297a21576ddbc214ed6049d54a61ab00f14122d4478d3ff408"
+            "url": "https://github.com/VSCodium/vscodium-insiders/releases/download/1.100.02343-insider/VSCodium-win32-arm64-1.100.02343-insider.zip",
+            "hash": "931bbec32b1a5c55681166fd99230b0566b189c6f6ff4f24d3e3772dfa236837"
         }
     },
     "pre_install": [
