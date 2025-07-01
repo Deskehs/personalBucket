@@ -8,7 +8,7 @@
             "url": "https://github.com/xiaoyifang/goldendict-ng/releases/download/v25.06.0-Release.8a87a79b/GoldenDict-ng-25.06.0-Qt6.7.2-Windows-installer.7z"
         }
     },
-    "extract_dir": "GoldenDict-ng-$version-Qt6.7.2",
+    "extract_dir": "GoldenDict-ng-$matchHead-Qt6.7.2",
     "bin": "GoldenDict.exe",
     "shortcuts": [
         [
